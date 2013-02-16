@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C73BD6B616CFA9920003E568 /* backgroud.png in Resources */ = {isa = PBXBuildFile; fileRef = C73BD6B516CFA9920003E568 /* backgroud.png */; };
+		C77C3AD716CF659600262368 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77C3AD616CF659600262368 /* UIKit.framework */; };
+		C77C3AD916CF659600262368 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77C3AD816CF659600262368 /* Foundation.framework */; };
+		C77C3ADB16CF659600262368 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C77C3ADA16CF659600262368 /* CoreGraphics.framework */; };
+		C77C3AE116CF659600262368 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C77C3ADF16CF659600262368 /* InfoPlist.strings */; };
+		C77C3AE316CF659600262368 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C77C3AE216CF659600262368 /* main.m */; };
+		C77C3AE716CF659600262368 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C77C3AE616CF659600262368 /* AppDelegate.m */; };
+		C77C3AE916CF659600262368 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C77C3AE816CF659600262368 /* Default.png */; };
+		C77C3AEB16CF659600262368 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C77C3AEA16CF659600262368 /* Default@2x.png */; };
+		C77C3AED16CF659600262368 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C77C3AEC16CF659600262368 /* Default-568h@2x.png */; };
+		C77C3AF016CF659600262368 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C77C3AEF16CF659600262368 /* ViewController.m */; };
+		C77C3AF316CF659600262368 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C77C3AF116CF659600262368 /* ViewController.xib */; };
+		C77C3AFB16CF662D00262368 /* DropDownCheckMarking.m in Sources */ = {isa = PBXBuildFile; fileRef = C77C3AFA16CF662D00262368 /* DropDownCheckMarking.m */; };
+		C77C3AFD16CF670B00262368 /* tick.png in Resources */ = {isa = PBXBuildFile; fileRef = C77C3AFC16CF670B00262368 /* tick.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C73BD6B516CFA9920003E568 /* backgroud.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backgroud.png; sourceTree = "<group>"; };
+		C77C3AD216CF659600262368 /* MultiFieldsSelector.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiFieldsSelector.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C77C3AD616CF659600262368 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C77C3AD816CF659600262368 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C77C3ADA16CF659600262368 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C77C3ADE16CF659600262368 /* MultiFieldsSelector-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MultiFieldsSelector-Info.plist"; sourceTree = "<group>"; };
+		C77C3AE016CF659600262368 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C77C3AE216CF659600262368 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C77C3AE416CF659600262368 /* MultiFieldsSelector-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MultiFieldsSelector-Prefix.pch"; sourceTree = "<group>"; };
+		C77C3AE516CF659600262368 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C77C3AE616CF659600262368 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C77C3AE816CF659600262368 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		C77C3AEA16CF659600262368 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		C77C3AEC16CF659600262368 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		C77C3AEE16CF659600262368 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C77C3AEF16CF659600262368 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C77C3AF216CF659600262368 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		C77C3AF916CF662D00262368 /* DropDownCheckMarking.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DropDownCheckMarking.h; sourceTree = "<group>"; };
+		C77C3AFA16CF662D00262368 /* DropDownCheckMarking.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DropDownCheckMarking.m; sourceTree = "<group>"; };
+		C77C3AFC16CF670B00262368 /* tick.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tick.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C77C3ACF16CF659600262368 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77C3AD716CF659600262368 /* UIKit.framework in Frameworks */,
+				C77C3AD916CF659600262368 /* Foundation.framework in Frameworks */,
+				C77C3ADB16CF659600262368 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C77C3AC716CF659600262368 = {
+			isa = PBXGroup;
+			children = (
+				C77C3ADC16CF659600262368 /* MultiFieldsSelector */,
+				C77C3AD516CF659600262368 /* Frameworks */,
+				C77C3AD316CF659600262368 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C77C3AD316CF659600262368 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C77C3AD216CF659600262368 /* MultiFieldsSelector.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C77C3AD516CF659600262368 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C77C3AD616CF659600262368 /* UIKit.framework */,
+				C77C3AD816CF659600262368 /* Foundation.framework */,
+				C77C3ADA16CF659600262368 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C77C3ADC16CF659600262368 /* MultiFieldsSelector */ = {
+			isa = PBXGroup;
+			children = (
+				C77C3AE516CF659600262368 /* AppDelegate.h */,
+				C77C3AE616CF659600262368 /* AppDelegate.m */,
+				C77C3AEE16CF659600262368 /* ViewController.h */,
+				C77C3AEF16CF659600262368 /* ViewController.m */,
+				C77C3AF116CF659600262368 /* ViewController.xib */,
+				C77C3AF916CF662D00262368 /* DropDownCheckMarking.h */,
+				C77C3AFA16CF662D00262368 /* DropDownCheckMarking.m */,
+				C77C3ADD16CF659600262368 /* Supporting Files */,
+			);
+			path = MultiFieldsSelector;
+			sourceTree = "<group>";
+		};
+		C77C3ADD16CF659600262368 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C73BD6B516CFA9920003E568 /* backgroud.png */,
+				C77C3ADE16CF659600262368 /* MultiFieldsSelector-Info.plist */,
+				C77C3ADF16CF659600262368 /* InfoPlist.strings */,
+				C77C3AE216CF659600262368 /* main.m */,
+				C77C3AE416CF659600262368 /* MultiFieldsSelector-Prefix.pch */,
+				C77C3AFC16CF670B00262368 /* tick.png */,
+				C77C3AE816CF659600262368 /* Default.png */,
+				C77C3AEA16CF659600262368 /* Default@2x.png */,
+				C77C3AEC16CF659600262368 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C77C3AD116CF659600262368 /* MultiFieldsSelector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C77C3AF616CF659600262368 /* Build configuration list for PBXNativeTarget "MultiFieldsSelector" */;
+			buildPhases = (
+				C77C3ACE16CF659600262368 /* Sources */,
+				C77C3ACF16CF659600262368 /* Frameworks */,
+				C77C3AD016CF659600262368 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiFieldsSelector;
+			productName = MultiFieldsSelector;
+			productReference = C77C3AD216CF659600262368 /* MultiFieldsSelector.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C77C3AC916CF659600262368 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Techipost;
+			};
+			buildConfigurationList = C77C3ACC16CF659600262368 /* Build configuration list for PBXProject "MultiFieldsSelector" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C77C3AC716CF659600262368;
+			productRefGroup = C77C3AD316CF659600262368 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C77C3AD116CF659600262368 /* MultiFieldsSelector */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C77C3AD016CF659600262368 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77C3AE116CF659600262368 /* InfoPlist.strings in Resources */,
+				C77C3AE916CF659600262368 /* Default.png in Resources */,
+				C77C3AEB16CF659600262368 /* Default@2x.png in Resources */,
+				C77C3AED16CF659600262368 /* Default-568h@2x.png in Resources */,
+				C77C3AF316CF659600262368 /* ViewController.xib in Resources */,
+				C77C3AFD16CF670B00262368 /* tick.png in Resources */,
+				C73BD6B616CFA9920003E568 /* backgroud.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C77C3ACE16CF659600262368 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C77C3AE316CF659600262368 /* main.m in Sources */,
+				C77C3AE716CF659600262368 /* AppDelegate.m in Sources */,
+				C77C3AF016CF659600262368 /* ViewController.m in Sources */,
+				C77C3AFB16CF662D00262368 /* DropDownCheckMarking.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C77C3ADF16CF659600262368 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77C3AE016CF659600262368 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		C77C3AF116CF659600262368 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C77C3AF216CF659600262368 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C77C3AF416CF659600262368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C77C3AF516CF659600262368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C77C3AF716CF659600262368 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiFieldsSelector/MultiFieldsSelector-Prefix.pch";
+				INFOPLIST_FILE = "MultiFieldsSelector/MultiFieldsSelector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C77C3AF816CF659600262368 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MultiFieldsSelector/MultiFieldsSelector-Prefix.pch";
+				INFOPLIST_FILE = "MultiFieldsSelector/MultiFieldsSelector-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C77C3ACC16CF659600262368 /* Build configuration list for PBXProject "MultiFieldsSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77C3AF416CF659600262368 /* Debug */,
+				C77C3AF516CF659600262368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C77C3AF616CF659600262368 /* Build configuration list for PBXNativeTarget "MultiFieldsSelector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C77C3AF716CF659600262368 /* Debug */,
+				C77C3AF816CF659600262368 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C77C3AC916CF659600262368 /* Project object */;
+}
