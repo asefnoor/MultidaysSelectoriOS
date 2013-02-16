@@ -31,8 +31,6 @@
     
 }
 - (void) showCountriesDropDown {
-    
-   
     countriesDropDown = [[DropDownCheckMarking alloc] initWithFrame:self.txtSelectedCountry.frame options:countries selectedIndicies:selectedCountries];
     [countriesDropDown setMenuDelegate:self];
     [self.view addSubview:countriesDropDown];
@@ -71,7 +69,7 @@
 }
 - (BOOL)textFieldShouldBeginEditing:(UITextField *)textField;        // return NO to disallow editing.
 {
-            [self showCountriesDropDown];
+    [self showCountriesDropDown];
     return NO;
 }
 
